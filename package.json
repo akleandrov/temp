@@ -1,0 +1,21 @@
+{
+  "name": "aline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "akleandrov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "config": "^3.3.1",
+    "winston": "^3.2.1"
+  }
+}

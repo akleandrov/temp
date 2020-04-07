@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  alinedb:
+    build: ../
+    environment:
+      NODE_ENV: production
+      DATA_PATH: /var/data
+      RABBIT_USER: rabbitmq
+      RABBIT_PASS: ZwCLkbUQOQELJjbj
+      RABBIT_HOST: rabbitmq
+      RABBIT_PORT: 35672
+    restart: always
+    volumes:
+      - aline-data:/var/data
+volumes:
+  aline-data:
